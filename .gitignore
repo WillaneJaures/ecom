@@ -5,3 +5,12 @@ airflow.db
 data/
 simple_auth_manager_passwords.json.generated
 logs/
+.venv
+/.venv
+.env
+/.env
+ecommerce_orders_may2024.db
+ecommerce_orders.db
+genere.py
+genere2.py
+main.py
