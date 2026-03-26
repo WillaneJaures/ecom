@@ -117,5 +117,6 @@ def extract_orders(date: datetime, db_path: str = "ecommerce_orders_may2024.db",
 
 
 if __name__=="__main__":
-    #extract_products(datetime.strptime("2024-05-10", "%Y-%m-%d"))
-    extract_orders(datetime.strptime("2024-05-03", "%Y-%m-%d"))
+    extract_products(datetime.strptime("2024-05-3", "%Y-%m-%d"))
+    #extract_orders(datetime.strptime("2024-05-03", "%Y-%m-%d"))
+    #extract_clients(datetime.strptime("2024-05-03", "%Y-%m-%d"))
